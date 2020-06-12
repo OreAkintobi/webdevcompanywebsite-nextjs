@@ -59,6 +59,8 @@ const Revolution = () => {
         />
 
         <meta property="og:url" content="arc.com/revolution" key="og:url" />
+
+        <link rel="canonical" key="canonical" href="arc.com/revolution" />
       </Head>
       <Grid item className={classes.rowContainer} style={{ marginTop: "2em" }}>
         <Typography

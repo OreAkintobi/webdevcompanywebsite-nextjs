@@ -68,6 +68,8 @@ const MobileApps = ({ setValue, setSelectedIndex }) => {
         />
 
         <meta property="og:url" content="arc.com/mobileapps" key="og:url" />
+
+        <link rel="canonical" key="canonical" href="arc.com/mobileapps" />
       </Head>
       <Grid
         item

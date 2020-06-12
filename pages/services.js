@@ -64,6 +64,8 @@ const Services = ({ setValue, setSelectedIndex }) => {
         />
 
         <meta property="og:url" content="arc.com/services" key="og:url" />
+
+        <link rel="canonical" key="canonical" href="arc.com/services" />
       </Head>
       <Grid
         item
