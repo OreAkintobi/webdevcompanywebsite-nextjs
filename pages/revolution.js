@@ -51,6 +51,14 @@ const Revolution = () => {
           key="description"
           content="Visionary insights, coupled with cutting-edge technology is a recipe for revolution. Get a free online estimate instantly!"
         />
+
+        <meta
+          property="og:title"
+          content="Bringing New Age Technology to West Africa | The Revolution"
+          key="og:title"
+        />
+
+        <meta property="og:url" content="arc.com/revolution" key="og:url" />
       </Head>
       <Grid item className={classes.rowContainer} style={{ marginTop: "2em" }}>
         <Typography

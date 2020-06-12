@@ -56,6 +56,14 @@ const Services = ({ setValue, setSelectedIndex }) => {
           key="description"
           content="Cutting-edge software, mobile app, and website development services with sleek custom designs - get a free online estimate instantly!"
         />
+
+        <meta
+          property="og:title"
+          content="Bringing New Age Technology to West Africa | Services"
+          key="og:title"
+        />
+
+        <meta property="og:url" content="arc.com/services" key="og:url" />
       </Head>
       <Grid
         item

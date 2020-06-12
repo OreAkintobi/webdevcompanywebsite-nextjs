@@ -12,6 +12,13 @@ export default class MyDocument extends Document {
           <meta charSet="utf-8" />
           <link rel="icon" href="/favicon.png" />
           <meta name="theme-color" content={Theme.palette.primary.main} />
+          {/* OpenGraph image properties*/}
+          <meta property="og:type" content="website" />
+          <meta property="og:image" content="https://i.imgur.com/C8evBTM.png" />
+          <meta property="og:image:type" content="image/png" />
+          <meta property="og:image:width" content="1200" />
+          <meta property="og:image:width" content="1200" />
+          <meta property="og:image:alt" content="company logo" />
           <link
             rel="stylesheet"
             href="https://fonts.googleapis.com/css?family=Pacifico|Raleway:100,400,400i,700|Roboto:300,400,500,700&display=swap"

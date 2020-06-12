@@ -51,6 +51,14 @@ const About = ({ setValue, setSelectedIndex }) => {
           key="description"
           content="We provide the fastest, most modern, affordable, and aesthetic software design and development services in Nigeria. Get a free estimate now!"
         />
+
+        <meta
+          property="og:title"
+          content="Bringing New Age Technology to West Africa | About Us"
+          key="og:title"
+        />
+
+        <meta property="og:url" content="arc.com/about" key="og:url" />
       </Head>
       <Grid
         item

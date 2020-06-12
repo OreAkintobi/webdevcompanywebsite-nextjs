@@ -771,6 +771,14 @@ const Estimate = () => {
           key="description"
           content="Use our free online estimate calculator to instantly check the cost of your custom software, mobile app, or website design and development project!"
         />
+
+        <meta
+          property="og:title"
+          content="Bringing New Age Technology to West Africa | Free Estimate"
+          key="og:title"
+        />
+
+        <meta property="og:url" content="arc.com/estimate" key="og:url" />
       </Head>
       <Grid
         item
