@@ -53,8 +53,13 @@ const MobileApps = ({ setValue, setSelectedIndex }) => {
     <Grid container direction="column">
       <Head>
         <title key="title">
-          Mobile App Development & Design - Free Estimate
+          iOS/Android App Development & Design | Arc Development
         </title>
+        <meta
+          name="description"
+          key="description"
+          content="Mobile apps made easy | Our cutting-edge mobile app development process lets us build beautifully designed, carefully crafted apps for both iOS and Android."
+        />
       </Head>
       <Grid
         item

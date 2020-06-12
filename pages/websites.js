@@ -43,7 +43,14 @@ const Websites = ({ setValue, setSelectedIndex }) => {
   return (
     <Grid container direction="column">
       <Head>
-        <title key="title">Website Development & Design - Free Estimate</title>
+        <title key="title">
+          Stunning Custom Website Development | Arc Development
+        </title>
+        <meta
+          name="description"
+          key="description"
+          content="Completely custom designed and built from scratch to be blazing fast. Optimized code, server-side rendering, and perfect responsive design | 99% PageSpeed score"
+        />
       </Head>
       <Grid
         item
