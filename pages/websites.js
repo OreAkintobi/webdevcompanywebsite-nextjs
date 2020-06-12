@@ -1,4 +1,5 @@
 import React from "react";
+import Head from "next/head";
 import Link from "../src/Link";
 import { makeStyles, useTheme } from "@material-ui/core/styles";
 import Grid from "@material-ui/core/Grid";
@@ -41,6 +42,9 @@ const Websites = ({ setValue, setSelectedIndex }) => {
 
   return (
     <Grid container direction="column">
+      <Head>
+        <title key="title">Website Development & Design - Free Estimate</title>
+      </Head>
       <Grid
         item
         container

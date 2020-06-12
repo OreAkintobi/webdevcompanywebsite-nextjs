@@ -1,4 +1,5 @@
 import React from "react";
+import Head from "next/head";
 import { makeStyles, useTheme } from "@material-ui/core/styles";
 import Grid from "@material-ui/core/Grid";
 import Avatar from "@material-ui/core/Avatar";
@@ -43,6 +44,9 @@ const About = ({ setValue, setSelectedIndex }) => {
 
   return (
     <Grid container direction="column">
+      <Head>
+        <title key="title">About Us - History & Team | Arc Development</title>
+      </Head>
       <Grid
         item
         className={classes.rowContainer}

@@ -1,4 +1,5 @@
 import React from "react";
+import Head from "next/head";
 import Link from "../src/Link";
 import { makeStyles, useTheme } from "@material-ui/core/styles";
 import Grid from "@material-ui/core/Grid";
@@ -46,6 +47,11 @@ const Services = ({ setValue, setSelectedIndex }) => {
 
   return (
     <Grid container direction="column">
+      <Head>
+        <title key="title">
+          Web & App Development Services - Free Estimate
+        </title>
+      </Head>
       <Grid
         item
         style={{

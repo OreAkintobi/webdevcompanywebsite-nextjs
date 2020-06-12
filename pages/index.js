@@ -1,4 +1,5 @@
 import React from "react";
+import Head from "next/head";
 import Lottie from "react-lottie";
 import Link from "../src/Link";
 import { makeStyles, useTheme } from "@material-ui/core/styles";
@@ -137,6 +138,11 @@ const LandingPage = ({ setValue, setSelectedIndex }) => {
 
   return (
     <Grid container direction="column" className={classes.mainContainer}>
+      <Head>
+        <title key="title">
+          Web & Mobile Development & Design | Arc Development
+        </title>
+      </Head>
       <Grid item>
         {/*-----Hero Block-----*/}
         <Grid container justify="flex-end" alignItems="center" direction="row">
