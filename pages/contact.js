@@ -218,7 +218,7 @@ const Contact = ({ setValue }) => {
           <Grid container direction="column">
             <Grid item>
               <Typography
-                variant="h2"
+                variant="h1"
                 align={matchesMD ? "center" : undefined}
                 style={{ lineHeight: 1 }}
               >
@@ -499,7 +499,7 @@ const Contact = ({ setValue }) => {
         >
           <Grid container direction="column">
             <Grid item>
-              <Typography variant="h2" align={matchesMD ? "center" : undefined}>
+              <Typography variant="h1" align={matchesMD ? "center" : undefined}>
                 Simple Software.
                 <br />
                 Revolutionary Results
