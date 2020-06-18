@@ -264,8 +264,9 @@ const CustomSoftware = ({ setValue, setSelectedIndex }) => {
         container
         alignItems={matchesMD ? "center" : undefined}
         direction={matchesMD ? "column" : "row"}
-        justify="space-between"
+        justify={matchesMD ? "center" : "space-between"}
         className={classes.rowContainer}
+        style={{ display: matchesMD ? "grid" : undefined }}
       >
         <Grid
           item
@@ -369,7 +370,7 @@ const CustomSoftware = ({ setValue, setSelectedIndex }) => {
         <Grid item container direction="column" alignItems="center">
           <Grid item>
             <img
-              src="/assets/roots.svg"
+              src="/assets/root.svg"
               alt="tree with roots"
               height={matchesSM ? "300em" : "450em"}
               width={matchesSM ? "300em" : "450em"}
@@ -395,9 +396,9 @@ const CustomSoftware = ({ setValue, setSelectedIndex }) => {
         container
         alignItems={matchesMD ? "center" : undefined}
         direction={matchesMD ? "column" : "row"}
-        justify="space-between"
-        style={{ marginBottom: "20em" }}
+        justify={matchesMD ? "center" : "space-between"}
         className={classes.rowContainer}
+        style={{ display: matchesMD ? "grid" : undefined }}
       >
         <Grid
           item
@@ -496,7 +497,7 @@ const CustomSoftware = ({ setValue, setSelectedIndex }) => {
         </Grid>
       </Grid>
 
-      <Grid item>
+      <Grid item style={{ marginTop: "20em" }}>
         <CallToAction setValue={setValue} />
       </Grid>
     </Grid>

@@ -450,6 +450,7 @@ const Revolution = () => {
             src="/assets/reviewIcon.svg"
             alt="magnifying glass"
             width="100%"
+            style={{ maxWidth: "40em" }}
           />
         </Grid>
       </Grid>
@@ -569,6 +570,7 @@ const Revolution = () => {
             src="/assets/reviewIcon.svg"
             alt="magnifying glass"
             width="100%"
+            style={{ maxWidth: "40em" }}
           />
         </Grid>
       </Grid>

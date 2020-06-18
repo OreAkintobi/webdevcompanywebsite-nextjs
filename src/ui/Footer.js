@@ -94,7 +94,12 @@ export default function Footer({
       <Hidden mdDown>
         <Grid container justify="center" className={classes.mainContainer}>
           <Grid item className={classes.gridItem}>
-            <Grid container direction="column" spacing={2}>
+            <Grid
+              container
+              direction="column"
+              spacing={2}
+              style={{ margin: 0 }}
+            >
               <Grid
                 item
                 component={Link}
@@ -107,7 +112,12 @@ export default function Footer({
             </Grid>
           </Grid>
           <Grid item className={classes.gridItem}>
-            <Grid container direction="column" spacing={2}>
+            <Grid
+              container
+              direction="column"
+              spacing={2}
+              style={{ margin: 0 }}
+            >
               {services.map((service, index) => (
                 <Grid
                   item
@@ -126,7 +136,12 @@ export default function Footer({
             </Grid>
           </Grid>
           <Grid item className={classes.gridItem}>
-            <Grid container direction="column" spacing={2}>
+            <Grid
+              container
+              direction="column"
+              spacing={2}
+              style={{ margin: 0 }}
+            >
               {revolution.map((text, index) => (
                 <Grid
                   item
@@ -142,7 +157,12 @@ export default function Footer({
             </Grid>
           </Grid>
           <Grid item className={classes.gridItem}>
-            <Grid container direction="column" spacing={2}>
+            <Grid
+              container
+              direction="column"
+              spacing={2}
+              style={{ margin: 0 }}
+            >
               {about.map((item, index) => (
                 <Grid
                   item
@@ -158,7 +178,12 @@ export default function Footer({
             </Grid>
           </Grid>
           <Grid item className={classes.gridItem}>
-            <Grid container direction="column" spacing={2}>
+            <Grid
+              container
+              direction="column"
+              spacing={2}
+              style={{ margin: 0 }}
+            >
               <Grid
                 item
                 component={Link}
@@ -172,11 +197,22 @@ export default function Footer({
           </Grid>
         </Grid>
       </Hidden>
-      <img
-        alt="black decorative slash"
-        src="/assets/footerAdornment.svg"
+      <svg
+        id="Layer_1"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 294.4 180"
         className={classes.adornment}
-      />
+      >
+        <style>{`.st1{fill:#fff}.st2{font-family:Raleway; font-weight: 500}.st3{font-size:8px}`}</style>
+        <path d="M294.4 0L166.3 227H-4V0z" />
+        <path fill="none" d="M111-24v376" />
+        <text transform="translate(5 175)" className="st1 st2 st3">
+          © Arc Development 2019
+        </text>
+        <text transform="translate(147.442 175)" className="st1 st2 st3">
+          Wichita, KS
+        </text>
+      </svg>
       <Grid
         container
         className={classes.socialContainer}

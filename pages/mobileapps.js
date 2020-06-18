@@ -199,7 +199,13 @@ const MobileApps = ({ setValue, setSelectedIndex }) => {
         </Grid>
 
         <Grid item md>
-          <Lottie options={defaultOptions} style={{ maxWidth: "20em" }} />
+          <Lottie
+            options={defaultOptions}
+            style={{
+              maxWidth: matchesMD ? "15em" : "20em",
+              height: matchesMD ? "20em" : undefined,
+            }}
+          />
         </Grid>
 
         <Grid
@@ -246,7 +252,10 @@ const MobileApps = ({ setValue, setSelectedIndex }) => {
         container
         direction={matchesMD ? "column" : "row"}
         className={classes.rowContainer}
-        style={{ marginBottom: "15em" }}
+        style={{
+          marginBottom: "15em",
+          display: matchesMD ? "grid" : undefined,
+        }}
       >
         <Grid item container direction="column" md alignItems="center">
           <Grid item>
